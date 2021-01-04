@@ -132,5 +132,6 @@ class RBAC(Validation):
                 return self.intials()
 
 
-rbac_obj = RBAC()
-rbac_obj.intials()
+if __name__ == "__main__" :
+    rbac_obj = RBAC()
+    rbac_obj.intials()
